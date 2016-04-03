@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
+title: 那一城雨滴
+subtitle: A raindrop is one sea, one rainbow.
 description:
-author: John Doe
-language:
-timezone:
+author: Peter Xu
+language: zh-CN
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://zenvv.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -63,9 +63,26 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+#theme: landscape
+#theme: light
+theme: maupassant
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+
+# plugin hexo-admin
+admin:
+  username: peterxu
+  password_hash: $2a$08$E8uqEcVLN7M8p4/dgu2TPuX3y/4JJkdoBlX7j1wYcAaV6/N.matu6
+  secret: secret@xyz@521
+
+# plugin hexo-generator-tag
+tag_generator:
+  per_page: 10
+
+# plugin hexo-generator-map
+sitemap:
+  path: sitemap.xml
