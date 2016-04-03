@@ -86,3 +86,11 @@ tag_generator:
 # plugin hexo-generator-map
 sitemap:
   path: sitemap.xml
+
+# plugin hexo-generator-feed
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+

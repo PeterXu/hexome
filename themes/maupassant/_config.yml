@@ -36,7 +36,7 @@ widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts
 links:
   - title: 豆瓣
     url: http://www.douban.com/
-  - title: NewSmth
+  - title: 水木
     url: http://www.newsmth.net/
 
 # Static files
