@@ -4,7 +4,9 @@ categories:
   - 技术
 date: 2008-12-17 16:49:00
 ---
-最近处理大批量的html视频信息网页，从中提取视频图片url、播放url、主演、导演和简介等。不想写代码，于是直接使用shell下sed命令。sed的正则表达式确实很复杂(类perl的)，花了半个小时才搞定了。但看起来确实很爽，一行就搞定了.  
+最近处理大批量的html视频信息网页，从中提取视频图片url、播放url、主演、导演和简介等。不想写代码，于是直接使用shell下sed命令。
+
+sed的正则表达式确实很复杂(类perl的)，花了半个小时才搞定了。但看起来确实很爽，一行就搞定了.  
 下面这个命令是用于预处理信息的：  
 ```
 find /tmp/mov_html | xargs cat | sed -n ’s/\(.*<dd>.*\”character_.*\)\|\(.*\”list_.*\)\|\(.*leiyancontent.*div\>\).*/\1\2\3\n/p’ > ./temp_mov_info.txt

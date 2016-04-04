@@ -5,7 +5,9 @@ categories:
   - 技术
 date: 2008-09-13 11:43:00
 ---
-今天修改了播放器playmp3list的部分代码bug。直接使用aptitude install playmp3list安装上的player存在两个问题：  
+今天修改了播放器playmp3list的部分代码bug。
+
+直接使用aptitude install playmp3list安装上的player存在两个问题：  
 （1）对中文支持不好，  
 （2）cpu消耗太多，也是最大的bug。  
 
