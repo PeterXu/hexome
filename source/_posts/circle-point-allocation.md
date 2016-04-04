@@ -1,4 +1,4 @@
-title: 一道关于圆内外2n+1个点分配的问题
+title: 关于圆内外2n+1个点的分配
 tags: []
 categories:
   - 算法

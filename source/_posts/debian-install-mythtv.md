@@ -1,13 +1,13 @@
-title: debian/ubuntu下的mythtv安装说明
+title: 在Debian下安装mythtv
 tags: []
 categories:
   - 技术
 date: 2009-05-12 22:23:00
 ---
 一. 环境配置  
-如果是debian或ubantu系统，可以直接通过以下命令来安装mythtv；
+如果是debian或ubuntu系统，可以直接通过以下命令来安装mythtv；
 
-对于debian或ubantu系统，首先选择源:
+对于debian或ubuntu系统，首先选择源:
 1. 打开/etc/apt/sources.list文件，添加源：（国内）
 deb http://debian.ustc.edu.cn/debian lenny main
 deb http://debian.ustc.edu.cn/debian lenny main contrib
