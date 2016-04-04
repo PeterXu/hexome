@@ -7,7 +7,9 @@ title: 那一城雨滴
 subtitle: A raindrop is one sea, one rainbow.
 description:
 author: Peter Xu
-language: zh-CN
+language: 
+  - zh-CN
+  - en
 timezone: Asia/Shanghai
 
 # URL
