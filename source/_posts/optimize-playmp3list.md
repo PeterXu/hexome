@@ -41,3 +41,5 @@ playmp3listWindow::do_refresh()
 关于原因，我想你已经看到的注释了。另外需要安长mpg123解码库才能播放mp3(附件有我improve的代码)。
 
 最后，一个完整的shell下mp3播放器完成了，去体验一下。
+
+[附源代码下载地址](http://download.csdn.net/detail/uskee/786855)

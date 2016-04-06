@@ -1,38 +1,8 @@
----
 title: Hello World
+date: 2016-04-05 00:30:15
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+<font size=1><b>[声明] 再次重建个人blog, 许多博文已丢失，幸好还能从一些被转载的文章中找回几篇。再附上一篇转帖共勉：</b></font>
+---------------------------------
 
-## Quick Start
-
-### Create a new post
-
-``` bash
-$ hexo new "My New Post"
-```
-
-More info: [Writing](https://hexo.io/docs/writing.html)
-
-### Run server
-
-``` bash
-$ hexo server
-```
-
-More info: [Server](https://hexo.io/docs/server.html)
-
-### Generate static files
-
-``` bash
-$ hexo generate
-```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/deployment.html)
+有人说过：有一句说一百句的是文学家，这叫文采；有一句说十句的是教授，这叫学问；有一句说一句的是律师，这叫谨慎；说一句留一句的是外交家，这叫严谨；有十句说一句的是政治家，这叫心计；有点事甚至半句也没有的人，却发微博，这叫啥好呢？自己想吧。
+<b>[想不到见本篇标题，^_^]</b>
