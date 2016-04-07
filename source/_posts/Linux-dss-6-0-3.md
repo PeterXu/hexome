@@ -1,10 +1,11 @@
 title: Linux编译安装Darwin Streaming Server 6.0.3
 tags: []
-categories: []
+categories:
+  - 技术
 date: 2009-10-04 23:22:00
 ---
 <font size="1" color="grey">
-[声明] 很久前在chinaunix中分享了几篇blog, 由于hi.chinaunix.net的意外关闭导致全部丢失（气人，没有任何通知）。如今，意外的发现有几篇被很多人转载，但其中使用这一篇的那些博主们并没有声明转载！在此重建个人博客以正声明，同时感谢那些博主们，否则找不回这篇旧文。
+[声明] 很久前在chinaunix hi中分享了几篇blog, 由于其意外关闭导致全部丢失。如今，意外的发现有几篇被很多人引用，其中一些博主们并没有声明转载！在此重建个人博客以正声明，同时感谢那些博主们，否则找不回这篇旧文。
 </font>
 
 ### 1、什么是Darwin Streaming Server  
