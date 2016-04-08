@@ -86,6 +86,11 @@ admin:
 tag_generator:
   per_page: 10
 
+# plugin hexo-generator-search
+search:
+  path: search.xml
+  field: post
+
 # plugin hexo-generator-map
 sitemap:
   path: sitemap.xml
