@@ -4,6 +4,8 @@ categories:
   - 技术
 date: 2009-05-12 22:23:00
 ---
+在debian中安装配置mythtv环境。
+
 一. 环境配置  
 如果是debian或ubuntu系统，可以直接通过以下命令来安装mythtv；
 
