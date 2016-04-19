@@ -74,7 +74,9 @@ theme: maupassant
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repository: git@github.com:PeterXu/peterxu.github.io.git
+  branch: master
 
 
 # plugin hexo-admin
