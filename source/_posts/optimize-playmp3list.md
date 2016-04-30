@@ -1,6 +1,7 @@
 title: 优化playmp3list代码
 tags:
-  - mp3
+  - media
+  - ''
 categories:
   - 技术
 date: 2008-09-13 11:43:00

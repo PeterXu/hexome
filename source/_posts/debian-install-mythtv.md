@@ -1,5 +1,6 @@
 title: 在Debian下安装mythtv
-tags: []
+tags:
+  - media
 categories:
   - 技术
 date: 2009-05-12 22:23:00

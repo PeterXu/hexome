@@ -1,5 +1,6 @@
 title: Linux编译安装Darwin Streaming Server 6.0.3
-tags: []
+tags:
+  - media
 categories:
   - 技术
 date: 2009-10-04 23:22:00

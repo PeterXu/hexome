@@ -1,5 +1,6 @@
 title: Tomcat常用配置
-tags: []
+tags:
+  - tomcat
 categories:
   - 技术
 date: 2016-04-07 21:22:00

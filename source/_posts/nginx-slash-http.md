@@ -1,5 +1,6 @@
 title: HTTP URI末尾斜杠在nginx中的处理
-tags: []
+tags:
+  - nginx
 categories:
   - 技术
 date: 2016-04-11 17:39:00

@@ -1,5 +1,6 @@
 title: Nginx虚拟主机和多域名处理逻辑
-tags: []
+tags:
+  - nginx
 categories:
   - 技术
 date: 2016-04-13 20:30:00
