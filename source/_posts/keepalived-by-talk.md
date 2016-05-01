@@ -4,7 +4,7 @@ categories:
   - 技术
 date: 2016-04-25 01:13:00
 ---
-keepalived是一种基于虚拟IP原理通过组播通信建立的软件HA系统, 简单有效得到广泛的应用. 
+keepalived是基于虚拟IP通过组播通信建立的一种软件HA系统, 简单有效得到广泛的应用. 
 
 通常有master/backup和backup/backup两种模式, 基本配置构成如下:  
 a). global_defs: 定义全局属性 
@@ -61,7 +61,8 @@ vrrp_instance VI_1 {
 }
 
 ```
-state用于标识该节点的初始状态: MASTER或BACKUP. 
+state: 标识该节点的初始状态 - MASTER或BACKUP.   
+garp_master_delay: 在切换到master状态后，延迟进行gratuitous ARP请求.   
 track_script的chk_app检测应用程序, 若失败则节点优先级降低(具体值在chk_app的weight中设置).
 
 ##### 节点2设置
@@ -142,7 +143,7 @@ c) 当节点1恢复时不会抢占master, 除非节点2失败.
 #### 3. nopreempt属性
 在某些情形下, keepalived的自动切换可能导致Brain-Split: 即两个节点都成为master并设置虚拟IP地址.  
 
-对此, keepalived提供了nopreempt属性, 其允许priority较低的节点作为master, 只在backup节点中设置有效, 具体如下:
+对此, keepalived提供了nopreempt属性, 允许低优先级节点作为master. 该属性只在backup节点中设置有效, 具体如下:
 
 1) master-backup模式  
 若backup设置nopreempt, 当节点1失败时节点2不会抢占master, 切换方法:  
@@ -152,7 +153,7 @@ b) 自动切换, 在节点1检测脚本中添加逻辑: 若检测失败自动关
 2) backup-backup模式  
 若backup设置nopreempt, 也需要手动干预或者在检测脚本中自动关闭keepalived.  
 
-通过关闭无效节点的keepalived服务, 可以有效避免Brain-Split; 若失败节点恢复需要手动处理才能起作用.
+通过关闭无效节点的keepalived服务, 可以有效避免Brain-Split; 但是, 需要手动处理才能恢复失败节点.
 
 -----
-一般情况下, 没有设置nopreempt的backup-backup模式即可以满足大多数需求.
+一般情况下, 不设置nopreempt的backup-backup模式即可以满足大多数需求.
