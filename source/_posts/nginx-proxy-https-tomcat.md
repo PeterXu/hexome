@@ -1,4 +1,4 @@
-title: nginx和tomcat配置完美支持HTTPS
+title: nginx+tomcat完美支持HTTPS
 tags:
   - nginx
   - tomcat
