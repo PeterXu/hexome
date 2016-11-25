@@ -1,0 +1,8 @@
+nginx:
+    image: nginx:latest
+    net: host
+    restart: always
+    volumes:
+        - /etc/nginx:/etc/nginx
+        - /var/log/nginx:/var/log/nginx
+
