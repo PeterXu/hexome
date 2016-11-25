@@ -1,5 +1,9 @@
+#!/bin/sh
+
+dpath=$(dirname $0)
 pkill -9 hexo
 sleep 1
-nohup hexo server -d &
+
+cd $dpath && nohup hexo server -d &
 
 exit 0
