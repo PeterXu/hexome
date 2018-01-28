@@ -1,6 +1,7 @@
 title: ffmpeg-usage
-date: 2016-07-04 15:46:50
-tags:
+tags: []
+categories: []
+date: 2016-07-04 15:46:00
 ---
 ffmpeg常用命令参数
 =================
