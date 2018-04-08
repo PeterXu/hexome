@@ -82,7 +82,7 @@ deploy:
 # plugin hexo-admin
 admin:
   username: peterxu
-  password_hash: $2a$08$E8uqEcVLN7M8p4/dgu2TPuX3y/4JJkdoBlX7j1wYcAaV6/N.matu6
+  password_hash: $2a$10$RTjqFlzQ8lGR2I2HgrPQk.CkThN.uURgGxo4uq3TtOUm7ghAwY9xW
   secret: f4da0660-05d2-11e6-8419-8f0b80896a7c
 
 # plugin hexo-generator-tag
